@@ -2,8 +2,6 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-  ],
-  base: '/my-custom-base-path/',
-})
+  plugins: [tailwindcss()],
+  base: "/countdown/dist/",
+});
